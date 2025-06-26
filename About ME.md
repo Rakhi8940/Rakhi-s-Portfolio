@@ -1,14 +1,12 @@
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80" alt="Tech Banner" width="75%" height="400"/>
+  <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80" alt="Tech Banner" width="75%" height="420"/>
 </p>
 
-<h1 align="center">Hi there! 👋 I'm Rakhi Yadav</h1>
+# Hi there! 👋 I'm Rakhi Yadav
 
-<p align="center">
-Welcome to my GitHub profile! <br>
-I’m a passionate student at <b>Madhav Institute of Technology and Science, Gwalior (MITS Gwalior)</b>, specializing in <b>IoT</b> (Internet of Things), with a keen interest in <b>Data Science</b> and <b>Frontend Development</b>.<br>
+Welcome to my GitHub profile!  
+I’m a passionate student at **Madhav Institute of Technology and Science, Gwalior (MITS Gwalior)**, specializing in **IoT** (Internet of Things), with a keen interest in **Data Science** and **Frontend Development**.  
 I believe in learning by doing, building creative solutions, and sharing knowledge with the world.
-</p>
 
 ---
 
@@ -31,7 +29,7 @@ I believe in learning by doing, building creative solutions, and sharing knowled
 
 ## 💡 My Top Skills
 
-<p align="center">
+<p>
   <img src="https://img.shields.io/badge/IoT-blue?logo=raspberrypi&logoColor=white" height="24"/>
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" height="24"/>
   <img src="https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white" height="24"/>
@@ -90,7 +88,7 @@ I believe in learning by doing, building creative solutions, and sharing knowled
 
 ## 🌐 Connect with Me
 
-<p align="center">
+<p>
   <a href="https://www.linkedin.com/in/rakhi-yadav8940/"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin" height="28"></a>
   <a href="https://x.com/RakhiYadav8940?s=35"><img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white" height="28"></a>
   <a href="https://rakhi8940.github.io/Rakhi-s-Portfolio/"><img src="https://img.shields.io/badge/Portfolio-181717?logo=github" height="28"></a>
