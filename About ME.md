@@ -1,9 +1,14 @@
-<img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80" alt="Tech Banner" width="70%" height="400"/>
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80" alt="Tech Banner" width="75%" height="400"/>
+</p>
 
-# Hi there! 👋 I'm Rakhi Yadav
+<h1 align="center">Hi there! 👋 I'm Rakhi Yadav</h1>
 
-Welcome to my GitHub profile!  
-I’m a passionate student at **Madhav Institute of Technology and Science, Gwalior (MITS Gwalior)**, specializing in **IoT** (Internet of Things), with a keen interest in **Data Science** and **Frontend Development**. I believe in learning by doing, building creative solutions, and sharing knowledge with the world.
+<p align="center">
+Welcome to my GitHub profile! <br>
+I’m a passionate student at <b>Madhav Institute of Technology and Science, Gwalior (MITS Gwalior)</b>, specializing in <b>IoT</b> (Internet of Things), with a keen interest in <b>Data Science</b> and <b>Frontend Development</b>.<br>
+I believe in learning by doing, building creative solutions, and sharing knowledge with the world.
+</p>
 
 ---
 
@@ -26,12 +31,14 @@ I’m a passionate student at **Madhav Institute of Technology and Science, Gwal
 
 ## 💡 My Top Skills
 
-<img src="https://img.shields.io/badge/IoT-blue?logo=raspberrypi&logoColor=white" height="24"/>
-<img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" height="24"/>
-<img src="https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white" height="24"/>
-<img src="https://img.shields.io/badge/Data%20Science-orange?logo=databricks&logoColor=white" height="24"/>
-<img src="https://img.shields.io/badge/Frontend-61DAFB?logo=react&logoColor=white" height="24"/>
-<img src="https://img.shields.io/badge/DSA-purple?logo=leetcode&logoColor=white" height="24"/>
+<p align="center">
+  <img src="https://img.shields.io/badge/IoT-blue?logo=raspberrypi&logoColor=white" height="24"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" height="24"/>
+  <img src="https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white" height="24"/>
+  <img src="https://img.shields.io/badge/Data%20Science-orange?logo=databricks&logoColor=white" height="24"/>
+  <img src="https://img.shields.io/badge/Frontend-61DAFB?logo=react&logoColor=white" height="24"/>
+  <img src="https://img.shields.io/badge/DSA-purple?logo=leetcode&logoColor=white" height="24"/>
+</p>
 
 - **IoT & Embedded Systems:** Arduino, NodeMCU, Raspberry Pi, ESP32, sensor integration, MQTT, real-time data streaming
 - **Edge Computing:** Deployment of lightweight ML models on edge devices for quick analytics
@@ -83,9 +90,11 @@ I’m a passionate student at **Madhav Institute of Technology and Science, Gwal
 
 ## 🌐 Connect with Me
 
-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/rakhi-yadav8940/)
-- [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white)](https://x.com/RakhiYadav8940?s=35)
-- [![Portfolio](https://img.shields.io/badge/Portfolio-181717?logo=github)](https://rakhi8940.github.io/Rakhi-s-Portfolio/)
+<p align="center">
+  <a href="https://www.linkedin.com/in/rakhi-yadav8940/"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin" height="28"></a>
+  <a href="https://x.com/RakhiYadav8940?s=35"><img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white" height="28"></a>
+  <a href="https://rakhi8940.github.io/Rakhi-s-Portfolio/"><img src="https://img.shields.io/badge/Portfolio-181717?logo=github" height="28"></a>
+</p>
 
 ---
 
@@ -99,8 +108,10 @@ I’m a passionate student at **Madhav Institute of Technology and Science, Gwal
 
 ---
 
-> “The beautiful thing about learning is that nobody can take it away from you.” – B.B. King
+<p align="center"><i>“The beautiful thing about learning is that nobody can take it away from you.” – B.B. King</i></p>
 
-Thank you for visiting my profile!  
-If you share my interests or want to collaborate, feel free to connect or check out my projects. 🌱  
+<p align="center">
+Thank you for visiting my profile! <br>
+If you share my interests or want to collaborate, feel free to connect or check out my projects. 🌱 <br>
 Let’s build, learn, and grow together!
+</p>
