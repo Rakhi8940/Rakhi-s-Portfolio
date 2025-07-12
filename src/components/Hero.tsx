@@ -1,9 +1,15 @@
-
 import { ArrowRight, Github, Linkedin, Mail, MapPin } from 'lucide-react';
 
 export const Hero = () => {
   const handleConnectClick = () => {
     window.location.href = 'mailto:rakhi.yadav480009@gmail.com?subject=Let\'s Connect!&body=Hi Rakhi,%0D%0A%0D%0AI came across your portfolio and would love to connect with you.%0D%0A%0D%0ABest regards';
+  };
+
+  const handleViewProjectsClick = () => {
+    const projectsSection = document.getElementById('projects');
+    if (projectsSection) {
+      projectsSection.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
@@ -38,7 +44,10 @@ export const Hero = () => {
                 Let's Connect
                 <ArrowRight size={20} />
               </button>
-              <button className="border-2 border-gray-600 hover:border-orange-500 text-white px-8 py-4 rounded-lg font-medium transition-all duration-300 hover:bg-orange-500/10">
+              <button 
+                onClick={handleViewProjectsClick}
+                className="border-2 border-gray-600 hover:border-orange-500 text-white px-8 py-4 rounded-lg font-medium transition-all duration-300 hover:bg-orange-500/10"
+              >
                 View Projects
               </button>
             </div>
