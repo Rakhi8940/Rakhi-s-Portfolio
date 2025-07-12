@@ -2,6 +2,10 @@
 import { ArrowRight, Github, Linkedin, Mail, MapPin } from 'lucide-react';
 
 export const Hero = () => {
+  const handleConnectClick = () => {
+    window.location.href = 'mailto:rakhi.yadav480009@gmail.com?subject=Let\'s Connect!&body=Hi Rakhi,%0D%0A%0D%0AI came across your portfolio and would love to connect with you.%0D%0A%0D%0ABest regards';
+  };
+
   return (
     <section id="home" className="min-h-screen flex items-center justify-center pt-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-900 via-gray-900 to-gray-800">
       <div className="max-w-7xl mx-auto w-full">
@@ -27,7 +31,10 @@ export const Hero = () => {
             </div>
 
             <div className="flex flex-wrap gap-4">
-              <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-medium transition-all duration-300 flex items-center gap-2 hover:shadow-lg hover:shadow-orange-500/25">
+              <button 
+                onClick={handleConnectClick}
+                className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-medium transition-all duration-300 flex items-center gap-2 hover:shadow-lg hover:shadow-orange-500/25"
+              >
                 Let's Connect
                 <ArrowRight size={20} />
               </button>
