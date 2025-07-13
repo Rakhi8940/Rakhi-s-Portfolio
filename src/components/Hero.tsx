@@ -2,7 +2,10 @@ import { ArrowRight, Github, Linkedin, Mail, MapPin } from 'lucide-react';
 
 export const Hero = () => {
   const handleConnectClick = () => {
-    window.location.href = 'mailto:rakhi.yadav480009@gmail.com?subject=Let\'s Connect!&body=Hi Rakhi,%0D%0A%0D%0AI came across your portfolio and would love to connect with you.%0D%0A%0D%0ABest regards';
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   const handleViewProjectsClick = () => {
