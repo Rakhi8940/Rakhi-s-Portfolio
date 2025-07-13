@@ -1,3 +1,4 @@
+
 import { ArrowRight, Github, Linkedin, Mail, MapPin } from 'lucide-react';
 
 export const Hero = () => {
@@ -73,7 +74,7 @@ export const Hero = () => {
                 <Linkedin size={24} />
               </a>
               <a 
-                href="mailto:rakhi.yadav480009@gmail.com"
+                href="mailto:yadav.rakhi4321@gmail.com"
                 className="text-gray-400 hover:text-orange-500 transition-colors duration-300"
               >
                 <Mail size={24} />
