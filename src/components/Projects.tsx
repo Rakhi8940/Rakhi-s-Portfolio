@@ -15,8 +15,8 @@ export const Projects = () => {
       title: "TweetPulse Analytics Dashboard",
       description: "Dynamic Twitter analytics dashboard built with Power BI and DAX, featuring real-time KPIs and sentiment analysis.",
       technologies: ["Power BI", "DAX", "Python", "Analytics"],
-      github: "https://github.com/Rakhi8940",
-      demo: "https://tweetpulse.demo.com"
+      github: "https://github.com/Rakhi8940/Weather-App",
+      demo: "https://rakhi8940.github.io/Weather-App/"
     },
     {
       title: "Credit Card Fraud Detection",
