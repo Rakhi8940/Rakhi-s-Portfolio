@@ -138,9 +138,14 @@ export const Projects = () => {
         </div>
 
         <div className="text-center mt-12">
-          <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-medium transition-colors duration-300">
+          <a 
+            href="https://github.com/Rakhi8940" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-medium transition-colors duration-300 inline-block"
+          >
             View All Projects
-          </button>
+          </a>
         </div>
       </div>
     </section>
