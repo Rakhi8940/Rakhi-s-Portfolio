@@ -8,7 +8,7 @@ export const Projects = () => {
       description: "Comprehensive travel platform integrating IoT sensors and AI recommendations using HTML, JS, Node-RED, and Arduino for smart travel experiences.",
       technologies: ["HTML", "JavaScript", "Node-RED", "Arduino", "IoT"],
       featured: true,
-      github: "https://github.com/Rakhi8940",
+      github: "https://github.com/Rakhi8940/Innovative-Travel-Management-Exploration-Platform-With-Realtime-Tracking",
       demo: "https://rakhi8940.github.io/Innovative-Travel-Management-Exploration-Platform-With-Realtime-Tracking/"
     },
     {
