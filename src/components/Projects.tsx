@@ -8,63 +8,63 @@ export const Projects = () => {
       description: "Comprehensive travel platform integrating IoT sensors and AI recommendations using HTML, JS, Node-RED, and Arduino for smart travel experiences.",
       technologies: ["HTML", "JavaScript", "Node-RED", "Arduino", "IoT"],
       featured: true,
-      github: "https://github.com/RakhiYadav/ai-travel-platform",
+      github: "https://github.com/Rakhi8940",
       demo: "https://ai-travel-platform.demo.com"
     },
     {
       title: "TweetPulse Analytics Dashboard",
       description: "Dynamic Twitter analytics dashboard built with Power BI and DAX, featuring real-time KPIs and sentiment analysis.",
       technologies: ["Power BI", "DAX", "Python", "Analytics"],
-      github: "https://github.com/RakhiYadav/tweetpulse-dashboard",
+      github: "https://github.com/Rakhi8940",
       demo: "https://tweetpulse.demo.com"
     },
     {
       title: "Credit Card Fraud Detection",
       description: "Machine learning model using XGBoost for real-time fraud detection with stream processing capabilities.",
       technologies: ["Python", "XGBoost", "Machine Learning", "Stream Processing"],
-      github: "https://github.com/RakhiYadav/fraud-detection",
+      github: "https://github.com/Rakhi8940",
       demo: "https://fraud-detection.demo.com"
     },
     {
       title: "Smart Weather App",
       description: "Location-based weather application using OpenWeatherMap API with geolocation features and responsive design.",
       technologies: ["JavaScript", "API Integration", "Geolocation", "Responsive Design"],
-      github: "https://github.com/RakhiYadav/smart-weather-app",
+      github: "https://github.com/Rakhi8940",
       demo: "https://smart-weather.demo.com"
     },
     {
       title: "IoT Home Automation",
       description: "Complete home automation system using Arduino, MIT App Inventor, and Bluetooth for controlling home appliances.",
       technologies: ["Arduino", "MIT App Inventor", "Bluetooth", "IoT"],
-      github: "https://github.com/RakhiYadav/iot-home-automation",
+      github: "https://github.com/Rakhi8940",
       demo: "https://home-automation.demo.com"
     },
     {
       title: "Smart Irrigation System",
       description: "Automated irrigation system using Arduino Uno and sensors with intelligent pump control based on soil conditions.",
       technologies: ["Arduino Uno", "Sensors", "Automation", "IoT"],
-      github: "https://github.com/RakhiYadav/smart-irrigation",
+      github: "https://github.com/Rakhi8940",
       demo: "https://irrigation.demo.com"
     },
     {
       title: "Weather Monitoring System",
       description: "Real-time weather monitoring using ESP32, DHT11 sensor, and ThingSpeak for data visualization and alerts.",
       technologies: ["ESP32", "DHT11", "ThingSpeak", "IoT"],
-      github: "https://github.com/RakhiYadav/weather-monitoring",
+      github: "https://github.com/Rakhi8940",
       demo: "https://weather-monitor.demo.com"
     },
     {
       title: "House Price Prediction",
       description: "Machine learning model for house price prediction using Python and SciKit Learn with multiple regression techniques.",
       technologies: ["Python", "SciKit Learn", "Machine Learning", "Regression"],
-      github: "https://github.com/RakhiYadav/house-price-prediction",
+      github: "https://github.com/Rakhi8940",
       demo: "https://house-prices.demo.com"
     },
     {
       title: "Movie Recommendation System",
       description: "Advanced recommendation system using NLP, collaborative filtering, and content-based filtering algorithms.",
       technologies: ["Python", "NLP", "Machine Learning", "Recommendation Systems"],
-      github: "https://github.com/RakhiYadav/movie-recommendation",
+      github: "https://github.com/Rakhi8940",
       demo: "https://movie-rec.demo.com"
     }
   ];
