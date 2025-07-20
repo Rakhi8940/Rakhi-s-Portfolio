@@ -7,47 +7,65 @@ export const Projects = () => {
       title: "AI-Powered Travel Platform",
       description: "Comprehensive travel platform integrating IoT sensors and AI recommendations using HTML, JS, Node-RED, and Arduino for smart travel experiences.",
       technologies: ["HTML", "JavaScript", "Node-RED", "Arduino", "IoT"],
-      featured: true
+      featured: true,
+      github: "https://github.com/RakhiYadav/ai-travel-platform",
+      demo: "https://ai-travel-platform.demo.com"
     },
     {
       title: "TweetPulse Analytics Dashboard",
       description: "Dynamic Twitter analytics dashboard built with Power BI and DAX, featuring real-time KPIs and sentiment analysis.",
-      technologies: ["Power BI", "DAX", "Python", "Analytics"]
+      technologies: ["Power BI", "DAX", "Python", "Analytics"],
+      github: "https://github.com/RakhiYadav/tweetpulse-dashboard",
+      demo: "https://tweetpulse.demo.com"
     },
     {
       title: "Credit Card Fraud Detection",
       description: "Machine learning model using XGBoost for real-time fraud detection with stream processing capabilities.",
-      technologies: ["Python", "XGBoost", "Machine Learning", "Stream Processing"]
+      technologies: ["Python", "XGBoost", "Machine Learning", "Stream Processing"],
+      github: "https://github.com/RakhiYadav/fraud-detection",
+      demo: "https://fraud-detection.demo.com"
     },
     {
       title: "Smart Weather App",
       description: "Location-based weather application using OpenWeatherMap API with geolocation features and responsive design.",
-      technologies: ["JavaScript", "API Integration", "Geolocation", "Responsive Design"]
+      technologies: ["JavaScript", "API Integration", "Geolocation", "Responsive Design"],
+      github: "https://github.com/RakhiYadav/smart-weather-app",
+      demo: "https://smart-weather.demo.com"
     },
     {
       title: "IoT Home Automation",
       description: "Complete home automation system using Arduino, MIT App Inventor, and Bluetooth for controlling home appliances.",
-      technologies: ["Arduino", "MIT App Inventor", "Bluetooth", "IoT"]
+      technologies: ["Arduino", "MIT App Inventor", "Bluetooth", "IoT"],
+      github: "https://github.com/RakhiYadav/iot-home-automation",
+      demo: "https://home-automation.demo.com"
     },
     {
       title: "Smart Irrigation System",
       description: "Automated irrigation system using Arduino Uno and sensors with intelligent pump control based on soil conditions.",
-      technologies: ["Arduino Uno", "Sensors", "Automation", "IoT"]
+      technologies: ["Arduino Uno", "Sensors", "Automation", "IoT"],
+      github: "https://github.com/RakhiYadav/smart-irrigation",
+      demo: "https://irrigation.demo.com"
     },
     {
       title: "Weather Monitoring System",
       description: "Real-time weather monitoring using ESP32, DHT11 sensor, and ThingSpeak for data visualization and alerts.",
-      technologies: ["ESP32", "DHT11", "ThingSpeak", "IoT"]
+      technologies: ["ESP32", "DHT11", "ThingSpeak", "IoT"],
+      github: "https://github.com/RakhiYadav/weather-monitoring",
+      demo: "https://weather-monitor.demo.com"
     },
     {
       title: "House Price Prediction",
       description: "Machine learning model for house price prediction using Python and SciKit Learn with multiple regression techniques.",
-      technologies: ["Python", "SciKit Learn", "Machine Learning", "Regression"]
+      technologies: ["Python", "SciKit Learn", "Machine Learning", "Regression"],
+      github: "https://github.com/RakhiYadav/house-price-prediction",
+      demo: "https://house-prices.demo.com"
     },
     {
       title: "Movie Recommendation System",
       description: "Advanced recommendation system using NLP, collaborative filtering, and content-based filtering algorithms.",
-      technologies: ["Python", "NLP", "Machine Learning", "Recommendation Systems"]
+      technologies: ["Python", "NLP", "Machine Learning", "Recommendation Systems"],
+      github: "https://github.com/RakhiYadav/movie-recommendation",
+      demo: "https://movie-rec.demo.com"
     }
   ];
 
@@ -95,14 +113,24 @@ export const Projects = () => {
                 </div>
                 
                 <div className="flex gap-4">
-                  <button className="flex items-center gap-2 text-orange-500 hover:text-orange-400 transition-colors duration-300">
+                  <a 
+                    href={project.github} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-orange-500 hover:text-orange-400 transition-colors duration-300"
+                  >
                     <Github size={16} />
                     <span className="text-sm">Code</span>
-                  </button>
-                  <button className="flex items-center gap-2 text-orange-500 hover:text-orange-400 transition-colors duration-300">
+                  </a>
+                  <a 
+                    href={project.demo} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-orange-500 hover:text-orange-400 transition-colors duration-300"
+                  >
                     <ExternalLink size={16} />
                     <span className="text-sm">Demo</span>
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
