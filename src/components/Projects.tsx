@@ -16,7 +16,7 @@ export const Projects = () => {
       description: "Dynamic Twitter analytics dashboard built with Power BI and DAX, featuring real-time KPIs and sentiment analysis.",
       technologies: ["Power BI", "DAX", "Python", "Analytics"],
       github: "https://github.com/Rakhi8940/Real-Time-Twitter-Data-Analytics-Using-Power-BI",
-      demo: "https://rakhi8940.github.io/Weather-App/"
+      demo: "https://rakhi8940.github.io/Real-Time-Twitter-Data-Analytics-Using-Power-BI/"
     },
     {
       title: "Credit Card Fraud Detection",
