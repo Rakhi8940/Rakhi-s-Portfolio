@@ -22,8 +22,8 @@ export const Projects = () => {
       title: "Credit Card Fraud Detection",
       description: "Machine learning model using XGBoost for real-time fraud detection with stream processing capabilities.",
       technologies: ["Python", "XGBoost", "Machine Learning", "Stream Processing"],
-      github: "https://github.com/Rakhi8940",
-      demo: "https://fraud-detection.demo.com"
+      github: "https://github.com/Rakhi8940/Credit-Card-Fraud-Detection",
+      demo: "https://rakhi8940.github.io/Credit-Card-Fraud-Detection/"
     },
     {
       title: "Smart Weather App",
