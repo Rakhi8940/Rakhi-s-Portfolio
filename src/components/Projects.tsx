@@ -12,27 +12,6 @@ export const Projects = () => {
       demo: "https://rakhi8940.github.io/Innovative-Travel-Management-Exploration-Platform-With-Realtime-Tracking/"
     },
     {
-      title: "TweetPulse Analytics Dashboard",
-      description: "Dynamic Twitter analytics dashboard built with Power BI and DAX, featuring real-time KPIs and sentiment analysis.",
-      technologies: ["Power BI", "DAX", "Python", "Analytics"],
-      github: "https://github.com/Rakhi8940/Real-Time-Twitter-Data-Analytics-Using-Power-BI",
-      demo: "https://rakhi8940.github.io/Real-Time-Twitter-Data-Analytics-Using-Power-BI/"
-    },
-    {
-      title: "Credit Card Fraud Detection",
-      description: "Machine learning model using XGBoost for real-time fraud detection with stream processing capabilities.",
-      technologies: ["Python", "XGBoost", "Machine Learning", "Stream Processing"],
-      github: "https://github.com/Rakhi8940/Credit-Card-Fraud-Detection",
-      demo: "https://rakhi8940.github.io/Credit-Card-Fraud-Detection/"
-    },
-    {
-      title: "Smart Weather App",
-      description: "Location-based weather application using OpenWeatherMap API with geolocation features and responsive design.",
-      technologies: ["JavaScript", "API Integration", "Geolocation", "Responsive Design"],
-      github: "https://github.com/Rakhi8940/Weather-App",
-      demo: "https://rakhi8940.github.io/Weather-App/"
-    },
-    {
       title: "IoT Home Automation",
       description: "Complete home automation system using Arduino, MIT App Inventor, and Bluetooth for controlling home appliances.",
       technologies: ["Arduino", "MIT App Inventor", "Bluetooth", "IoT"],
@@ -47,11 +26,25 @@ export const Projects = () => {
       demo: "https://rakhi8940.github.io/SmartGrow-BluetoothIrrigator/"
     },
     {
+      title: "TweetPulse Analytics Dashboard",
+      description: "Dynamic Twitter analytics dashboard built with Power BI and DAX, featuring real-time KPIs and sentiment analysis.",
+      technologies: ["Power BI", "DAX", "Python", "Analytics"],
+      github: "https://github.com/Rakhi8940/Real-Time-Twitter-Data-Analytics-Using-Power-BI",
+      demo: "https://rakhi8940.github.io/Real-Time-Twitter-Data-Analytics-Using-Power-BI/"
+    },
+    {
       title: "Stock Market Price Prediction",
       description: "Machine learning model for predicting stock market prices using historical data, technical indicators, and advanced regression algorithms.",
       technologies: ["Python", "Machine Learning", "Pandas", "Scikit-Learn"],
       github: "https://github.com/Rakhi8940/Stock-Market-Price-Prediction",
       demo: "https://rakhi8940.github.io/Stock-Market-Price-Prediction/"
+    },
+    {
+      title: "Credit Card Fraud Detection",
+      description: "Machine learning model using XGBoost for real-time fraud detection with stream processing capabilities.",
+      technologies: ["Python", "XGBoost", "Machine Learning", "Stream Processing"],
+      github: "https://github.com/Rakhi8940/Credit-Card-Fraud-Detection",
+      demo: "https://rakhi8940.github.io/Credit-Card-Fraud-Detection/"
     },
     {
       title: "Fake News Detection",
@@ -66,6 +59,13 @@ export const Projects = () => {
       technologies: ["Python", "NLP", "Machine Learning", "Recommendation Systems"],
       github: "https://github.com/Rakhi8940/Movie-Recommendation",
       demo: "https://rakhi8940.github.io/Movie-Recommendation/"
+    },
+    {
+      title: "Smart Weather App",
+      description: "Location-based weather application using OpenWeatherMap API with geolocation features and responsive design.",
+      technologies: ["JavaScript", "API Integration", "Geolocation", "Responsive Design"],
+      github: "https://github.com/Rakhi8940/Weather-App",
+      demo: "https://rakhi8940.github.io/Weather-App/"
     }
   ];
 
