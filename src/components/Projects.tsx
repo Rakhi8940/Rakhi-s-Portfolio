@@ -54,11 +54,11 @@ export const Projects = () => {
       demo: "https://rakhi8940.github.io/Stock-Market-Price-Prediction/"
     },
     {
-      title: "House Price Prediction",
-      description: "Machine learning model for house price prediction using Python and SciKit Learn with multiple regression techniques.",
-      technologies: ["Python", "SciKit Learn", "Machine Learning", "Regression"],
-      github: "https://github.com/Rakhi8940",
-      demo: "https://house-prices.demo.com"
+      title: "Fake News Detection",
+      description: "Machine learning model for detecting fake news using NLP techniques, text classification, and advanced algorithms to identify misinformation.",
+      technologies: ["Python", "NLP", "Machine Learning", "Text Classification"],
+      github: "https://github.com/Rakhi8940/Fake-News-Detection",
+      demo: "https://rakhi8940.github.io/Fake-News-Detection/"
     },
     {
       title: "Movie Recommendation System",
