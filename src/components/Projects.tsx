@@ -29,8 +29,8 @@ export const Projects = () => {
       title: "Smart Weather App",
       description: "Location-based weather application using OpenWeatherMap API with geolocation features and responsive design.",
       technologies: ["JavaScript", "API Integration", "Geolocation", "Responsive Design"],
-      github: "https://github.com/Rakhi8940",
-      demo: "https://smart-weather.demo.com"
+      github: "https://github.com/Rakhi8940/Weather-App",
+      demo: "https://rakhi8940.github.io/Weather-App/"
     },
     {
       title: "IoT Home Automation",
