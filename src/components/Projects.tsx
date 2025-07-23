@@ -43,8 +43,8 @@ export const Projects = () => {
       title: "Smart Irrigation System",
       description: "Automated irrigation system using Arduino Uno and sensors with intelligent pump control based on soil conditions.",
       technologies: ["Arduino Uno", "Sensors", "Automation", "IoT"],
-      github: "https://github.com/Rakhi8940",
-      demo: "https://irrigation.demo.com"
+      github: "https://github.com/Rakhi8940/SmartGrow-BluetoothIrrigator",
+      demo: "https://rakhi8940.github.io/SmartGrow-BluetoothIrrigator/"
     },
     {
       title: "Weather Monitoring System",
