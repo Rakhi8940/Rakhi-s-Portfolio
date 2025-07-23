@@ -9,7 +9,7 @@ export const Projects = () => {
       technologies: ["HTML", "JavaScript", "Node-RED", "Arduino", "IoT"],
       featured: true,
       github: "https://github.com/Rakhi8940/Innovative-Travel-Management-Exploration-Platform-With-Realtime-Tracking",
-      demo: "https://rakhi8940.github.io/NexGen-LivingGrid/"
+      demo: "https://rakhi8940.github.io/Innovative-Travel-Management-Exploration-Platform-With-Realtime-Tracking/"
     },
     {
       title: "TweetPulse Analytics Dashboard",
