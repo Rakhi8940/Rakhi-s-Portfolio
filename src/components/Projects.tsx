@@ -64,8 +64,8 @@ export const Projects = () => {
       title: "Movie Recommendation System",
       description: "Advanced recommendation system using NLP, collaborative filtering, and content-based filtering algorithms.",
       technologies: ["Python", "NLP", "Machine Learning", "Recommendation Systems"],
-      github: "https://github.com/Rakhi8940",
-      demo: "https://movie-rec.demo.com"
+      github: "https://github.com/Rakhi8940/Movie-Recommendation",
+      demo: "https://rakhi8940.github.io/Movie-Recommendation/"
     }
   ];
 
