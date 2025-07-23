@@ -36,8 +36,8 @@ export const Projects = () => {
       title: "IoT Home Automation",
       description: "Complete home automation system using Arduino, MIT App Inventor, and Bluetooth for controlling home appliances.",
       technologies: ["Arduino", "MIT App Inventor", "Bluetooth", "IoT"],
-      github: "https://github.com/Rakhi8940",
-      demo: "https://home-automation.demo.com"
+      github: "https://github.com/Rakhi8940/NexGen-LivingGrid",
+      demo: "https://rakhi8940.github.io/NexGen-LivingGrid/"
     },
     {
       title: "Smart Irrigation System",
