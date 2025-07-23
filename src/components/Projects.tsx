@@ -47,11 +47,11 @@ export const Projects = () => {
       demo: "https://rakhi8940.github.io/SmartGrow-BluetoothIrrigator/"
     },
     {
-      title: "Weather Monitoring System",
-      description: "Real-time weather monitoring using ESP32, DHT11 sensor, and ThingSpeak for data visualization and alerts.",
-      technologies: ["ESP32", "DHT11", "ThingSpeak", "IoT"],
-      github: "https://github.com/Rakhi8940",
-      demo: "https://weather-monitor.demo.com"
+      title: "Stock Market Price Prediction",
+      description: "Machine learning model for predicting stock market prices using historical data, technical indicators, and advanced regression algorithms.",
+      technologies: ["Python", "Machine Learning", "Pandas", "Scikit-Learn"],
+      github: "https://github.com/Rakhi8940/Stock-Market-Price-Prediction",
+      demo: "https://rakhi8940.github.io/Stock-Market-Price-Prediction/"
     },
     {
       title: "House Price Prediction",
