@@ -12,7 +12,7 @@ import { Navigation } from '@/components/Navigation';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <div className="min-h-screen bg-background text-foreground dark">{/* Force dark mode to match portfolio */}
       <Navigation />
       <Hero />
       <About />
