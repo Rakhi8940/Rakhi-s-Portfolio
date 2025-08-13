@@ -132,3 +132,37 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+/* ElevenLabs Widget Customization */
+elevenlabs-convai {
+  /* Override widget colors to match portfolio theme */
+  --widget-bg-color: hsl(210 11% 10%) !important;
+  --widget-text-color: hsl(210 17% 95%) !important;
+  --widget-btn-color: hsl(214 100% 60%) !important;
+  --widget-btn-text-color: hsl(210 11% 8%) !important;
+  --widget-border-color: hsl(210 11% 20%) !important;
+  --widget-focus-color: hsl(214 100% 60%) !important;
+}
+
+/* Target the widget iframe and container */
+elevenlabs-convai iframe {
+  border-radius: 12px !important;
+  box-shadow: 0 10px 30px -10px hsl(214 100% 60% / 0.3) !important;
+}
+
+/* Custom styles for the widget when it loads */
+elevenlabs-convai [data-testid="widget-container"] {
+  background: hsl(210 11% 10%) !important;
+  border: 1px solid hsl(210 11% 20%) !important;
+  border-radius: 12px !important;
+}
+
+elevenlabs-convai button {
+  background: hsl(214 100% 60%) !important;
+  color: hsl(210 11% 8%) !important;
+  border-radius: 8px !important;
+}
+
+elevenlabs-convai button:hover {
+  background: hsl(214 100% 70%) !important;
+}
