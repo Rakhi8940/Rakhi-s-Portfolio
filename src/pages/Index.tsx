@@ -22,6 +22,7 @@ const Index = () => {
       <Education />
       <Certifications />
       <Contact />
+      <div dangerouslySetInnerHTML={{ __html: '<elevenlabs-convai agent-id="agent_5501k2hyyv3cedwbxw0rpex3t1mf"></elevenlabs-convai>' }} />
     </div>
   );
 };
