@@ -1,73 +1,121 @@
-# Welcome to your Lovable project
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/8940?v=4"
+       alt="Rakhi Yadav Logo"
+       width="100"
+       height="100"
+       style="border-radius: 20px; vertical-align: top;"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+</p>
 
-## Project info
+# 🚀 Rakhi Yadav — Personal Portfolio Website
 
-**URL**: https://lovable.dev/projects/2e6a9333-7bc3-4b06-8914-691648bb5c64
+A clean, modern, and blazing-fast **personal portfolio website** built with [Vite](https://vitejs.dev/), [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [shadcn/ui](https://ui.shadcn.com/), and [Tailwind CSS](https://tailwindcss.com/).  
+Showcase your skills, projects, and experience with beautiful UI and smooth interactivity.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+- ⚡ **Ultra-fast** thanks to Vite
+- 🎨 **Beautiful UI** powered by shadcn/ui & Tailwind CSS
+- 🧑‍💻 **Written in TypeScript** — type-safe and scalable
+- 🌙 **Responsive & Accessible** — works perfectly on all devices
+- 💼 **Showcase Projects** — easy to add, edit, and organize
+- 📄 **Downloadable Resume/CV**
+- 🌐 **Social Links & Contact Form**
+- 🛠️ **Easy to Customize** — modular and developer-friendly
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2e6a9333-7bc3-4b06-8914-691648bb5c64) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+| Technology      | Purpose                                  |
+|-----------------|------------------------------------------|
+| **Vite**        | Lightning-fast development/build tool     |
+| **React**       | UI library for building interactive web apps |
+| **TypeScript**  | Type-safe development                    |
+| **shadcn/ui**   | Accessible, stylish UI components        |
+| **Tailwind CSS**| Utility-first CSS for rapid design       |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🖼️ Screenshots
 
-Follow these steps:
+<p align="center">
+  <img src="images/portfolio-home.png" width="480" alt="Portfolio Home" style="border-radius: 14px; box-shadow: 0 2px 16px rgba(0,0,0,0.13); margin-bottom: 22px;"/>
+</p>
+<p align="center">
+  <img src="images/portfolio-projects.png" width="480" alt="Portfolio Projects" style="border-radius: 14px; box-shadow: 0 2px 16px rgba(0,0,0,0.13); margin-right: 28px;"/>
+  <img src="images/portfolio-contact.png" width="480" alt="Portfolio Contact" style="border-radius: 14px; box-shadow: 0 2px 16px rgba(0,0,0,0.13);"/>
+</p>
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚦 Getting Started
 
-# Step 3: Install the necessary dependencies.
-npm i
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Rakhi8940/portfolio.git
+   ```
+2. **Navigate to the project folder:**
+   ```bash
+   cd portfolio
+   ```
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+5. **Open in browser:**  
+   Visit [http://localhost:5173](http://localhost:5173) (or your Vite port).
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+---
+
+## 📁 Project Structure
+
+```
+portfolio/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── App.tsx
+│   └── main.tsx
+├── public/
+│   └── favicon.ico
+├── tailwind.config.js
+├── vite.config.ts
+├── tsconfig.json
+├── package.json
+└── README.md
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 💡 Customization
 
-**Use GitHub Codespaces**
+- Personalize your **bio**, **skills**, **projects**, and **images** in the `/src` folders.
+- Update theme colors and styles in `tailwind.config.js`.
+- Easily add sections, contact forms, and more using shadcn/ui components.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📄 License
 
-This project is built with:
+This project is licensed under the MIT License.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🙋‍♀️ Contact
 
-Simply open [Lovable](https://lovable.dev/projects/2e6a9333-7bc3-4b06-8914-691648bb5c64) and click on Share -> Publish.
+Created by **Rakhi Yadav**  
+Feel free to reach out for collaborations, feedback, or questions: [yadav.rakhi4321@gmail.com](mailto:yadav.rakhi4321@gmail.com)
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+<p align="center">
+  <b>Showcase your journey, skills, and creativity — all in one place.</b>
+</p>
