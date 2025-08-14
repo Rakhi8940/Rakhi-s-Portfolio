@@ -1,105 +1,103 @@
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/8940?v=4"
-       alt="Rakhi Yadav Logo"
-       width="100"
-       height="100"
-       style="border-radius: 20px; vertical-align: top;"/>
+  <img src="images/esp32-setup.jpg"
+       alt="BrightESP32-MQTTX Logo"
+       width="140"
+       height="140"
+       style="border-radius: 24px; vertical-align: top;"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-# 🚀 Rakhi Yadav — Personal Portfolio Website
+# 🔆 BrightESP32-MQTTX
 
-A clean, modern, and blazing-fast **personal portfolio website** built with [Vite](https://vitejs.dev/), [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [shadcn/ui](https://ui.shadcn.com/), and [Tailwind CSS](https://tailwindcss.com/).  
-Showcase your skills, projects, and experience with beautiful UI and smooth interactivity.
+**Remote LED control with ESP32 using MQTT and EMQX — a simple IoT demo.**
+
+---
+
+## 🚀 Project Overview
+
+BrightESP32-MQTTX demonstrates how to control an LED connected to an ESP32 microcontroller remotely using the MQTT protocol via the EMQX broker. This project showcases real-time IoT communication and device automation using lightweight messaging.
 
 ---
 
 ## ✨ Features
 
-- ⚡ **Ultra-fast** thanks to Vite
-- 🎨 **Beautiful UI** powered by shadcn/ui & Tailwind CSS
-- 🧑‍💻 **Written in TypeScript** — type-safe and scalable
-- 🌙 **Responsive & Accessible** — works perfectly on all devices
-- 💼 **Showcase Projects** — easy to add, edit, and organize
-- 📄 **Downloadable Resume/CV**
-- 🌐 **Social Links & Contact Form**
-- 🛠️ **Easy to Customize** — modular and developer-friendly
+- Connects ESP32 to Wi-Fi and EMQX MQTT broker  
+- Subscribes to MQTT topic to receive ON/OFF commands  
+- Controls LED state based on MQTT messages  
+- Uses PubSubClient library for MQTT communication  
+- Simple and scalable architecture for IoT applications  
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Hardware Requirements
 
-| Technology      | Purpose                                  |
-|-----------------|------------------------------------------|
-| **Vite**        | Lightning-fast development/build tool     |
-| **React**       | UI library for building interactive web apps |
-| **TypeScript**  | Type-safe development                    |
-| **shadcn/ui**   | Accessible, stylish UI components        |
-| **Tailwind CSS**| Utility-first CSS for rapid design       |
+- ESP32 development board  
+- LED  
+- 220-ohm resistor  
+- Breadboard and jumper wires  
 
 ---
 
-## 🖼️ Screenshots
+## 💻 Software Requirements
+
+- Arduino IDE  
+- PubSubClient library  
+- EMQX MQTT broker (public or self-hosted)  
+- MQTT client app (e.g., MQTTX, MQTT Dash)  
+
+---
+
+## 🖇️ Wiring Diagram
+
+Connect the LED anode (+) to GPIO 23 (or your chosen pin) via a 220-ohm resistor. Connect the LED cathode (–) to GND.
+
+---
+
+## 🖼️ Images
 
 <p align="center">
-  <img src="images/portfolio-home.png" width="480" alt="Portfolio Home" style="border-radius: 14px; box-shadow: 0 2px 16px rgba(0,0,0,0.13); margin-bottom: 22px;"/>
+  <!-- First row: Only the first image (ESP32/setup) -->
+  <img src="images/esp32-setup.jpg" width="420" alt="ESP32 or Setup" style="border-radius: 14px; box-shadow: 0 2px 16px rgba(0,0,0,0.13); margin-bottom: 22px;"/>
 </p>
+
 <p align="center">
-  <img src="images/portfolio-projects.png" width="480" alt="Portfolio Projects" style="border-radius: 14px; box-shadow: 0 2px 16px rgba(0,0,0,0.13); margin-right: 28px;"/>
-  <img src="images/portfolio-contact.png" width="480" alt="Portfolio Contact" style="border-radius: 14px; box-shadow: 0 2px 16px rgba(0,0,0,0.13);"/>
+  <!-- Second row: Working Example and MQTTX Client, replace src with your actual image paths -->
+  <img src="images/working.jpg" width="420" alt="Working Example" style="border-radius: 14px; box-shadow: 0 2px 16px rgba(0,0,0,0.13); margin-right: 28px;"/>
+  <img src="images/mqttx.jpg" width="420" alt="MQTTX Client" style="border-radius: 14px; box-shadow: 0 2px 16px rgba(0,0,0,0.13);"/>
 </p>
 
 ---
 
-## 🚦 Getting Started
+## ▶️ Video Demonstration
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Rakhi8940/portfolio.git
-   ```
-2. **Navigate to the project folder:**
-   ```bash
-   cd portfolio
-   ```
-3. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-4. **Run the development server:**
-   ```bash
-   npm run dev
-   ```
-5. **Open in browser:**  
-   Visit [http://localhost:5173](http://localhost:5173) (or your Vite port).
+> **Note:** GitHub READMEs do not support direct video embeds.  
+> To watch the demonstration, [click here to view the video](your_video_link_here).
+
+---
+
+## 📌 Usage
+
+1. Clone or download this repository.
+2. Open `LED_MQTT_Code.ino` in Arduino IDE.
+3. Replace Wi-Fi and MQTT broker credentials in the code.
+4. Upload the code to your ESP32 board.
+5. Use an MQTT client to publish "ON"/"OFF" messages to the topic `/esp32/led`.
+6. Observe the LED turn on/off accordingly.
 
 ---
 
 ## 📁 Project Structure
 
 ```
-portfolio/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── assets/
-│   ├── App.tsx
-│   └── main.tsx
-├── public/
-│   └── favicon.ico
-├── tailwind.config.js
-├── vite.config.ts
-├── tsconfig.json
-├── package.json
-└── README.md
+BrightESP32-MQTTX/
+├── LED_MQTT_Code.ino
+├── images/
+│   ├── esp32-setup.jpg
+│   ├── working.jpg
+│   └── mqttx.jpg
+├── README.md
+└── ...
 ```
-
----
-
-## 💡 Customization
-
-- Personalize your **bio**, **skills**, **projects**, and **images** in the `/src` folders.
-- Update theme colors and styles in `tailwind.config.js`.
-- Easily add sections, contact forms, and more using shadcn/ui components.
 
 ---
 
@@ -109,13 +107,13 @@ This project is licensed under the MIT License.
 
 ---
 
-## 🙋‍♀️ Contact
+## 📬 Contact
 
-Created by **Rakhi Yadav**  
-Feel free to reach out for collaborations, feedback, or questions: [yadav.rakhi4321@gmail.com](mailto:yadav.rakhi4321@gmail.com)
+For questions or feedback, please contact [yadav.rakhi4321@gmail.com].
 
 ---
 
 <p align="center">
-  <b>Showcase your journey, skills, and creativity — all in one place.</b>
+  <b>BrightESP32-MQTTX</b><br>
+  <i>Control your Home, one LED at a time.</i>
 </p>
