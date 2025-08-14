@@ -16,7 +16,7 @@ Welcome! This is my personal developer portfolio—showcasing my skills, project
 ## 🌐 Live Demo
 
 <p align="center">
-  <a href="https://your-portfolio-demo-link.com">
+  <a href="https://rakhisportfolio.netlify.app/">
     <img src="https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge" alt="Live Demo Badge" />
   </a>
 </p>
