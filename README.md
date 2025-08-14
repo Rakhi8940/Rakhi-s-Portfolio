@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/86ffdb08-b0db-40d8-b823-8d87e1162137" alt="Portfolio Banner">
+  <img src="https://github.com/user-attachments/assets/30288112-d5bb-4890-ae55-b6d638dca64e" alt="Portfolio Banner">
 </p>
 
 # 🖥️ Personal Portfolio Website  
@@ -126,17 +126,17 @@ npm run dev
 
 ### Homepage
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/portfolio-homepage-demo.png" alt="Homepage" width="600">
+  <img src="https://github.com/user-attachments/assets/f470d1eb-d9b5-4364-b90b-1cf1dd8ab8ea" alt="Homepage" width="600">
 </p>
 
 ### Projects Section
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/portfolio-gallery-demo.png" alt="Projects Section" width="600">
+  <img src="https://github.com/user-attachments/assets/d3ea4de9-9966-4afa-8697-0b7f657a8d26" alt="Projects Section" width="600">
 </p>
 
 ### Contact Form
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/portfolio-contact-demo.png" alt="Contact Form" width="600">
+  <img src="https://github.com/user-attachments/assets/37309e9a-4b0c-4961-a6a0-e74cc9d23cd5" alt="Contact Form" width="600">
 </p>
 
 ---
@@ -150,7 +150,7 @@ npm run dev
 ## 📫 Contact
 
 Made by **Rakhi Yadav**  
-Find me on [LinkedIn](https://www.linkedin.com/in/rakhi8940/) | [Twitter](https://twitter.com/rakhi8940) | [Email](mailto:rakhi8940@gmail.com)
+Find me on [LinkedIn](https://www.linkedin.com/in/rakhi8940/) | [Twitter](https://twitter.com/rakhi8940) | [Email](mailto:yadav.rakhi4321@gmail.com)
 
 ---
 
