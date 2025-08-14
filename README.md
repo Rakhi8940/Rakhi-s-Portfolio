@@ -1,54 +1,52 @@
-# Personal Portfolio Website
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/86ffdb08-b0db-40d8-b823-8d87e1162137" alt="Portfolio Banner">
+</p>
 
-Welcome to my personal portfolio website! This project showcases my skills, experience, and works as a developer. It is built with modern technologies to ensure a fast, responsive, and visually appealing user experience.
-
----
-
-## 🚀 Tech Stack
-
-This project is built with:
-
-- **[Vite](https://vitejs.dev/)** – Lightning-fast build tool for modern web projects
-- **[TypeScript](https://www.typescriptlang.org/)** – Typed JavaScript for scalable and maintainable code
-- **[React](https://react.dev/)** – Powerful library for building interactive UIs
-- **[shadcn-ui](https://ui.shadcn.com/)** – Beautifully designed UI components for React
-- **[Tailwind CSS](https://tailwindcss.com/)** – Utility-first CSS framework for rapid styling
+# 🖥️ Personal Portfolio Website  
+### 🚀 Vite | TypeScript | React | shadcn-ui | Tailwind CSS
 
 ---
 
-## 🛠️ Getting Started
+## 📌 Overview
 
-To run this project locally, follow these steps:
+**This portfolio website** is designed to showcase my skills, projects, and experience as a web developer. Built with a modern tech stack, it delivers a fast, responsive, and visually compelling user experience. Explore interactive sections, view my recent work, and get in touch—all in one place!
 
-### Prerequisites
+---
 
-- [Node.js](https://nodejs.org/) (v16+ recommended)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+## 🔧 Features
 
-### Installation
+### 🎨 Modern UI & UX
+- Clean, minimal interface using **shadcn-ui** components
+- Dark/light mode toggle
+- Responsive layout for desktop and mobile
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/your-portfolio-repo.git
-   cd your-portfolio-repo
-   ```
+### 🚀 Fast Performance
+- Powered by **Vite** for lightning-fast development and builds
+- Optimized asset loading and automatic code splitting
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
+### 💡 Developer Experience
+- Written in **TypeScript** for type safety and maintainability
+- Modular structure with reusable React components
 
-3. **Start the development server:**
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
+### ✉️ Contact & Social Links
+- Integrated contact form
+- Social media links with interactive icons
 
-4. **Open your browser:**
-   Visit [http://localhost:5173](http://localhost:5173) to view your portfolio.
+### 🖼️ Project Gallery
+- Showcase of recent projects with descriptions and live links
+- Filterable by tech stack
+
+---
+
+## 🛠️ Tech Stack
+
+### 💻 Software
+
+- **Vite** – Next-gen frontend build tool
+- **TypeScript** – Strictly typed JavaScript for reliability
+- **React** – Component-driven UI library
+- **shadcn-ui** – Accessible and beautiful React components
+- **Tailwind CSS** – Utility-first CSS for rapid styling
 
 ---
 
@@ -58,46 +56,84 @@ To run this project locally, follow these steps:
 ├── public/              # Static assets
 ├── src/                 # Source code
 │   ├── components/      # Reusable React components
-│   ├── pages/           # Page components
-│   ├── styles/          # Tailwind & custom styles
-│   └── main.tsx         # Entry point
-├── package.json         # Project metadata & scripts
-├── tsconfig.json        # TypeScript configuration
-├── tailwind.config.js   # Tailwind CSS configuration
-└── vite.config.ts       # Vite configuration
+│   ├── pages/           # Route-based pages
+│   ├── assets/          # Images and media
+│   ├── styles/          # Tailwind and custom CSS
+│   └── main.tsx         # App entry point
+├── package.json         # Project scripts and metadata
+├── tsconfig.json        # TypeScript config
+├── tailwind.config.js   # Tailwind CSS config
+├── vite.config.ts       # Vite config
+└── README.md            # Project documentation
 ```
 
 ---
 
-## 🎨 Features
+## ⚡ Quick Start
 
-- **Modern UI:** Responsive and accessible design with shadcn-ui & Tailwind CSS
-- **Fast Performance:** Powered by Vite for instant reloads and optimized builds
-- **Type-Safe Code:** Built with TypeScript for reliability
-- **Easy Customization:** Modular components and utility-first styling
+#### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/your-portfolio-repo.git
+cd your-portfolio-repo
+```
 
----
+#### 2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
 
-## 📦 Deployment
+#### 3. Start the development server
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-You can deploy this site easily to platforms like [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/), or [GitHub Pages](https://pages.github.com/).
-
----
-
-## 🙌 Credits
-
-- [Vite](https://vitejs.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [React](https://react.dev/)
-- [shadcn-ui](https://ui.shadcn.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
-
----
-
-## 📝 License
-
-This project is licensed under the [MIT License](LICENSE).
+#### 4. Visit in your browser
+Open [http://localhost:5173](http://localhost:5173) to view your portfolio.
 
 ---
 
-**Feel free to fork, contribute, or reach out for collaboration!**
+## 🧪 Demo Highlights
+
+- Smooth navigation between sections
+- Interactive project cards and gallery
+- Mobile-friendly design with adaptive layouts
+- Accessible UI elements (keyboard and screen reader support)
+
+---
+
+## 📷 Screenshots
+
+### 1. Homepage
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/portfolio-homepage-demo.png" alt="Homepage" width="600">
+</p>
+
+### 2. Project Gallery
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/portfolio-gallery-demo.png" alt="Project Gallery" width="600">
+</p>
+
+### 3. Contact Section
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/portfolio-contact-demo.png" alt="Contact Section" width="600">
+</p>
+
+### 4. Mobile View
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/portfolio-mobile-demo.png" alt="Mobile View" width="300">
+</p>
+
+---
+
+## ✨ Credits
+
+Developed by: **Rakhi Yadav**  
+Special thanks: Vite, React, TypeScript, shadcn-ui, and Tailwind CSS open source communities.
+
+---
+
+> **Beautiful, blazing-fast, and fully responsive—your portfolio, powered by modern web technologies.**
