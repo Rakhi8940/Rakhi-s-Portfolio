@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/30288112-d5bb-4890-ae55-b6d638dca64e" alt="Portfolio Banner">
+  <img src="https://github.com/user-attachments/assets/30288112-d5bb-4890-ae55-b6d638dca64e" alt="Portfolio Banner" width="400">
 </p>
 
 # 🖥️ Personal Portfolio Website  
