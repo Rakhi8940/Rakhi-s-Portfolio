@@ -1,119 +1,103 @@
-<p align="center">
-  <img src="images/esp32-setup.jpg"
-       alt="BrightESP32-MQTTX Logo"
-       width="140"
-       height="140"
-       style="border-radius: 24px; vertical-align: top;"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-</p>
+# Personal Portfolio Website
 
-# 🔆 BrightESP32-MQTTX
-
-**Remote LED control with ESP32 using MQTT and EMQX — a simple IoT demo.**
+Welcome to my personal portfolio website! This project showcases my skills, experience, and works as a developer. It is built with modern technologies to ensure a fast, responsive, and visually appealing user experience.
 
 ---
 
-## 🚀 Project Overview
+## 🚀 Tech Stack
 
-BrightESP32-MQTTX demonstrates how to control an LED connected to an ESP32 microcontroller remotely using the MQTT protocol via the EMQX broker. This project showcases real-time IoT communication and device automation using lightweight messaging.
+This project is built with:
 
----
-
-## ✨ Features
-
-- Connects ESP32 to Wi-Fi and EMQX MQTT broker  
-- Subscribes to MQTT topic to receive ON/OFF commands  
-- Controls LED state based on MQTT messages  
-- Uses PubSubClient library for MQTT communication  
-- Simple and scalable architecture for IoT applications  
+- **[Vite](https://vitejs.dev/)** – Lightning-fast build tool for modern web projects
+- **[TypeScript](https://www.typescriptlang.org/)** – Typed JavaScript for scalable and maintainable code
+- **[React](https://react.dev/)** – Powerful library for building interactive UIs
+- **[shadcn-ui](https://ui.shadcn.com/)** – Beautifully designed UI components for React
+- **[Tailwind CSS](https://tailwindcss.com/)** – Utility-first CSS framework for rapid styling
 
 ---
 
-## 🛠️ Hardware Requirements
+## 🛠️ Getting Started
 
-- ESP32 development board  
-- LED  
-- 220-ohm resistor  
-- Breadboard and jumper wires  
+To run this project locally, follow these steps:
 
----
+### Prerequisites
 
-## 💻 Software Requirements
+- [Node.js](https://nodejs.org/) (v16+ recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-- Arduino IDE  
-- PubSubClient library  
-- EMQX MQTT broker (public or self-hosted)  
-- MQTT client app (e.g., MQTTX, MQTT Dash)  
+### Installation
 
----
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/your-portfolio-repo.git
+   cd your-portfolio-repo
+   ```
 
-## 🖇️ Wiring Diagram
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-Connect the LED anode (+) to GPIO 23 (or your chosen pin) via a 220-ohm resistor. Connect the LED cathode (–) to GND.
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
----
-
-## 🖼️ Images
-
-<p align="center">
-  <!-- First row: Only the first image (ESP32/setup) -->
-  <img src="images/esp32-setup.jpg" width="420" alt="ESP32 or Setup" style="border-radius: 14px; box-shadow: 0 2px 16px rgba(0,0,0,0.13); margin-bottom: 22px;"/>
-</p>
-
-<p align="center">
-  <!-- Second row: Working Example and MQTTX Client, replace src with your actual image paths -->
-  <img src="images/working.jpg" width="420" alt="Working Example" style="border-radius: 14px; box-shadow: 0 2px 16px rgba(0,0,0,0.13); margin-right: 28px;"/>
-  <img src="images/mqttx.jpg" width="420" alt="MQTTX Client" style="border-radius: 14px; box-shadow: 0 2px 16px rgba(0,0,0,0.13);"/>
-</p>
-
----
-
-## ▶️ Video Demonstration
-
-> **Note:** GitHub READMEs do not support direct video embeds.  
-> To watch the demonstration, [click here to view the video](your_video_link_here).
-
----
-
-## 📌 Usage
-
-1. Clone or download this repository.
-2. Open `LED_MQTT_Code.ino` in Arduino IDE.
-3. Replace Wi-Fi and MQTT broker credentials in the code.
-4. Upload the code to your ESP32 board.
-5. Use an MQTT client to publish "ON"/"OFF" messages to the topic `/esp32/led`.
-6. Observe the LED turn on/off accordingly.
+4. **Open your browser:**
+   Visit [http://localhost:5173](http://localhost:5173) to view your portfolio.
 
 ---
 
 ## 📁 Project Structure
 
 ```
-BrightESP32-MQTTX/
-├── LED_MQTT_Code.ino
-├── images/
-│   ├── esp32-setup.jpg
-│   ├── working.jpg
-│   └── mqttx.jpg
-├── README.md
-└── ...
+├── public/              # Static assets
+├── src/                 # Source code
+│   ├── components/      # Reusable React components
+│   ├── pages/           # Page components
+│   ├── styles/          # Tailwind & custom styles
+│   └── main.tsx         # Entry point
+├── package.json         # Project metadata & scripts
+├── tsconfig.json        # TypeScript configuration
+├── tailwind.config.js   # Tailwind CSS configuration
+└── vite.config.ts       # Vite configuration
 ```
 
 ---
 
-## 📄 License
+## 🎨 Features
 
-This project is licensed under the MIT License.
-
----
-
-## 📬 Contact
-
-For questions or feedback, please contact [yadav.rakhi4321@gmail.com].
+- **Modern UI:** Responsive and accessible design with shadcn-ui & Tailwind CSS
+- **Fast Performance:** Powered by Vite for instant reloads and optimized builds
+- **Type-Safe Code:** Built with TypeScript for reliability
+- **Easy Customization:** Modular components and utility-first styling
 
 ---
 
-<p align="center">
-  <b>BrightESP32-MQTTX</b><br>
-  <i>Control your Home, one LED at a time.</i>
-</p>
+## 📦 Deployment
+
+You can deploy this site easily to platforms like [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/), or [GitHub Pages](https://pages.github.com/).
+
+---
+
+## 🙌 Credits
+
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://react.dev/)
+- [shadcn-ui](https://ui.shadcn.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+**Feel free to fork, contribute, or reach out for collaboration!**
